@@ -92,12 +92,14 @@ WSGI_APPLICATION = 'Bank_Details.wsgi.application'
 DATABASES = {
     'default': {
              'ENGINE': 'django.db.backends.postgresql',
-             'NAME': 'db_bank_details',
-             'USER': 'admin',
-             'PASSWORD':'nisam@123',
-             'HOST': '127.0.0.1',
+             'NAME': 'd4gib6pt03kh5f',
+             'USER': 'jeickmsyxctxzr',
+             'PASSWORD':'7878ea09259436787b3865b7e2aea0868e503ece9e4c25aa2e4a98fb49018231',
+             'HOST': 'ec2-52-203-182-92.compute-1.amazonaws.com',
            # 'HOST':'192.168.0.114',
              'PORT': '5432',
+             'Heroku CLI':'heroku pg:psql postgresql-symmetrical-81889 --app bankappnisam',
+             'URI':'postgres://jeickmsyxctxzr:7878ea09259436787b3865b7e2aea0868e503ece9e4c25aa2e4a98fb49018231@ec2-52-203-182-92.compute-1.amazonaws.com:5432/d4gib6pt03kh5f'
     }
 }
 
